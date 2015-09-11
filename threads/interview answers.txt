@@ -1,0 +1,7 @@
+Deadlocks -- the situation where a thread is waiting for an object lock that another
+thread holds, and this second thread is waiting for an object lock that the first thread
+holds. Since each thread is waiting for the other thread to relinquish a lock, they both
+remain waiting forever.
+
+Thread is within a process and share many data or memories.
+Thread is a particular execution path of a process.
